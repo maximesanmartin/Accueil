@@ -1,0 +1,19 @@
+{
+  "sites" : [
+    {
+      "titre" : "Google",
+      "url" : "http://google.com",
+      "image" : "google"
+    },
+    {
+      "titre" : "Google",
+      "url" : "http://google.com",
+      "image" : "google"
+    },
+    {
+      "titre" : "Google",
+      "url" : "http://google.com",
+      "image" : "google"
+    }
+  ]
+}
