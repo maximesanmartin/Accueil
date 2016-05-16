@@ -1,0 +1,45 @@
+body{
+	font-family: 'Arvo', serif;
+}
+
+h1{
+	color: #C2C2C2;
+	text-align: center;
+	font-size: 58;
+	margin: 100px;
+	text-transform: uppercase;
+}
+
+#sites{
+	margin-left: 10%;
+	margin-right: 10%;
+	display: inline-block;
+}
+
+.site{
+	width: 260px;
+	height: 150px;
+	display: inline-block;
+	margin: 10 17 60 17;
+}
+
+.image{
+	position: relative;
+	width: 100%;
+	height: 90%;
+	border: 2px solid #DDD;
+	border-radius: 6px;
+	text-align: center;
+	background-color: #EEE;
+}
+
+.image img{
+	height: 70%;
+	margin: 20;
+}
+
+.titre{
+	text-align: center;
+	color: #777;
+	font-size: 20;
+}
