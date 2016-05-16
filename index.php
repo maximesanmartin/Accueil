@@ -9,6 +9,7 @@
 </head>
 <body>
 	<h1>Bienvenue sur Internet</h1>
+	<hr></hr>
 	<div id="sites">
 		<?php foreach($json->sites as $site){ ?>
 			<div class="site">

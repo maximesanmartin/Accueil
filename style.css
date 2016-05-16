@@ -1,13 +1,20 @@
 body{
 	font-family: 'Arvo', serif;
+	background: url('img/bg.png') repeat;
 }
 
 h1{
-	color: #C2C2C2;
+	color: #888;
 	text-align: center;
 	font-size: 58;
-	margin: 100px;
+	margin: 50px;
 	text-transform: uppercase;
+}
+
+hr{
+	width: 70%;
+	color: #BBB;
+	margin-bottom: 50;
 }
 
 #sites{
@@ -30,7 +37,7 @@ h1{
 	border: 2px solid #DDD;
 	border-radius: 6px;
 	text-align: center;
-	background-color: #EEE;
+	background-color: inherit;
 }
 
 .image img{
