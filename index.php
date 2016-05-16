@@ -4,7 +4,6 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
-	<?php ini_set('display_errors', 1); error_reporting (E_ALL | E_STRICT); ?>
 	<?php $json = read_json("json/data.json"); ?>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 </head>
