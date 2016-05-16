@@ -25,12 +25,14 @@
 </html>
 
 <script>
-	$(".image img").hover(function(){
-		$image = $(this).attr("title");
-		$(this).attr("src", "img/"+$image+"_alt.png");
+	$(".site a").hover(function(){
+		$img_tag = $(this).find("img");
+		$image = $img_tag.attr("title");
+		$img_tag.attr("src", "img/"+$image+"_alt.png");
 	}, function(){
-		$image = $(this).attr("title");
-		$(this).attr("src", "img/"+$image+".png");
+		$img_tag = $(this).find("img");
+		$image = $img_tag.attr("title");
+		$img_tag.attr("src", "img/"+$image+".png");
 	});	
 </script>
 
