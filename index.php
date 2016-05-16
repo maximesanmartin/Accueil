@@ -26,6 +26,10 @@
 </html>
 
 <script>
+	$(document).ready(function(){
+		$("div:hidden").fadeIn("slow");
+	});
+
 	$(".site a").hover(function(){
 		$img_tag = $(this).find("img");
 		$image = $img_tag.attr("title");
