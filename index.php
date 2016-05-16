@@ -28,7 +28,10 @@
 <script>
 	$(".image img").hover(function(){
 		$image = $(this).attr("title");
-		$(this).attr("src", "img/"+$image+"2.png");
+		$(this).attr("src", "img/"+$image+"_alt.png");
+	}, function(){
+		$image = $(this).attr("title");
+		$(this).attr("src", "img/"+$image+".png");
 	});	
 </script>
 
