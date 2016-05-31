@@ -3,42 +3,50 @@
     {
       "titre" : "Google",
       "url" : "http://google.com",
-      "image" : "google"
+      "image" : "google",
+      "bg" : ""
     },
     {
       "titre" : "Gmail",
       "url" : "http://gmail.com",
-      "image" : "gmail"
+      "image" : "gmail",
+      "bg" : ""
     },
     {
       "titre" : "Facebook",
       "url" : "http://facebook.com",
-      "image" : "facebook"
+      "image" : "facebook",
+      "bg" : ""
     },
     {
       "titre" : "Caisse d'épargne",
       "url" : "https://www.caisse-epargne.fr",
-      "image" : "caisse-epargne"
+      "image" : "caisse-epargne",
+      "bg" : ""
     },
     {
       "titre" : "Youtube",
       "url" : "http://youtube.com",
-      "image" : "youtube"
+      "image" : "youtube",
+      "bg" : ""
     },
     {
       "titre" : "Amazon",
       "url" : "http://amazon.fr",
-      "image" : "amazon"
+      "image" : "amazon",
+      "bg" : ""
     },
     {
       "titre" : "Dailymotion",
       "url" : "http://dailymotion.fr",
-      "image" : "dailymotion"
+      "image" : "dailymotion",
+      "bg" : ""
     },
     {
       "titre" : "Twitter",
       "url" : "http://twitter.com",
-      "image" : "twitter"
+      "image" : "twitter",
+      "bg" : ""
     }
   ]
 }
