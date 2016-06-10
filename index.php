@@ -14,7 +14,7 @@
 		<?php foreach($json->sites as $site){ ?>
 			<div class="site">
 				<a href="<?php echo $site->url; ?>">
-					<div class="image">
+					<div class="image" style="background-color: <?php if($site->bg != "") print $site->bg; else print "None"; ?>">
 						<img title="<?php echo $site->image; ?>" src="img/<?php echo $site->image; ?>.png"/>
 					</div>
 				</a>

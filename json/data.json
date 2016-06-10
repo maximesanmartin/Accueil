@@ -4,49 +4,49 @@
       "titre" : "Google",
       "url" : "http://google.com",
       "image" : "google",
-      "bg" : ""
+      "bg" : "rgb(234, 67, 53)"
     },
     {
       "titre" : "Gmail",
       "url" : "http://gmail.com",
       "image" : "gmail",
-      "bg" : ""
+      "bg" : "rgb(229, 91, 81)"
     },
     {
       "titre" : "Facebook",
       "url" : "http://facebook.com",
       "image" : "facebook",
-      "bg" : ""
+      "bg" : "rgb(59,87,157)"
     },
     {
       "titre" : "Caisse d'épargne",
       "url" : "https://www.caisse-epargne.fr",
       "image" : "caisse-epargne",
-      "bg" : ""
+      "bg" : "rgb(254, 0, 11)"
     },
     {
       "titre" : "Youtube",
       "url" : "http://youtube.com",
       "image" : "youtube",
-      "bg" : ""
+      "bg" : "rgb(255, 44, 30)"
     },
     {
       "titre" : "Amazon",
       "url" : "http://amazon.fr",
       "image" : "amazon",
-      "bg" : ""
+      "bg" : "rgb(255, 255, 255)"
     },
     {
       "titre" : "Dailymotion",
       "url" : "http://dailymotion.fr",
       "image" : "dailymotion",
-      "bg" : ""
+      "bg" : "rgb(196, 134, 162)"
     },
     {
       "titre" : "Twitter",
       "url" : "http://twitter.com",
       "image" : "twitter",
-      "bg" : ""
+      "bg" : "rgb(16, 172, 237)"
     }
   ]
 }

@@ -10,16 +10,16 @@ from scipy import misc
 import matplotlib.pyplot as plt
 import numpy as np
 
-image = misc.imread('img/caisse-epargne.png')
+image = misc.imread('img/twitter.png')
 
 plt.imshow(image)
-#Les  axes  sont  supprimés
 plt.axis('off')
 plt.show()
 
 def hist(image):
     colors = list()
-    (x,y,z) = np.shape(image)[0:3]
+    # On recupere l'image en profondeur (RGB + transparence => PNG) 
+    (x,y,z) = np.shape(image)
     for col in range(z):
         colors.append(dict())
         for i in range(x):
@@ -33,14 +33,14 @@ def hist(image):
 def get_best_color(histo):
     bestColor = list()
     for colors in histo:
-        best = 0
+        best = 1
         maxi = 0
         for color in colors.items():
-            if color[1] > maxi:
+            if color[1] > maxi and color[0] != 0 and color[0] != 255:
                 best = color[0]
                 maxi = color[1]
         bestColor.append(best)
     return bestColor
 
 histo = hist(image)
-print get_best_color(histo)
+print "Meilleure couleur : rgb(", get_best_color(histo), ")"
