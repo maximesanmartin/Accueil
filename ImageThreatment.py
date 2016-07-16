@@ -10,7 +10,7 @@ from scipy import misc
 import matplotlib.pyplot as plt
 import numpy as np
 
-image = misc.imread('img/twitter.png')
+image = misc.imread('img/amazon.png')
 
 plt.imshow(image)
 plt.axis('off')

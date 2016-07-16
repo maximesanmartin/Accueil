@@ -33,11 +33,24 @@
 	$(".site a").hover(function(){
 		$img_tag = $(this).find("img");
 		$image = $img_tag.attr("title");
-		$img_tag.attr("src", "img/"+$image+"_alt.png");
+		$src = "img/"+$image+"_alt.png";
+		$.ajax({
+		    url: $src,
+		    type:'HEAD',
+		    error: function(){
+		    	$exists = false;
+		    },
+		    success: function(){
+		        $img_tag.attr("src", $src);
+		        $exists = true;
+		    }
+		});
 	}, function(){
 		$img_tag = $(this).find("img");
-		$image = $img_tag.attr("title");
-		$img_tag.attr("src", "img/"+$image+".png");
+		if($exists){
+			$image = $img_tag.attr("title");
+			$img_tag.attr("src", "img/"+$image+".png");
+		}
 	});	
 </script>
 

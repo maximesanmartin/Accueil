@@ -4,49 +4,61 @@
       "titre" : "Google",
       "url" : "http://google.com",
       "image" : "google",
-      "bg" : "rgb(234, 67, 53)"
+      "bg" : ""
     },
     {
       "titre" : "Gmail",
       "url" : "http://gmail.com",
       "image" : "gmail",
-      "bg" : "rgb(229, 91, 81)"
+      "bg" : ""
     },
     {
       "titre" : "Facebook",
       "url" : "http://facebook.com",
       "image" : "facebook",
-      "bg" : "rgb(59,87,157)"
+      "bg" : ""
     },
     {
       "titre" : "Caisse d'épargne",
       "url" : "https://www.caisse-epargne.fr",
       "image" : "caisse-epargne",
-      "bg" : "rgb(254, 0, 11)"
+      "bg" : ""
     },
     {
       "titre" : "Youtube",
       "url" : "http://youtube.com",
       "image" : "youtube",
-      "bg" : "rgb(255, 44, 30)"
+      "bg" : ""
     },
     {
       "titre" : "Amazon",
       "url" : "http://amazon.fr",
       "image" : "amazon",
-      "bg" : "rgb(255, 255, 255)"
+      "bg" : ""
     },
     {
       "titre" : "Dailymotion",
       "url" : "http://dailymotion.fr",
       "image" : "dailymotion",
-      "bg" : "rgb(196, 134, 162)"
+      "bg" : ""
     },
     {
       "titre" : "Twitter",
       "url" : "http://twitter.com",
       "image" : "twitter",
-      "bg" : "rgb(16, 172, 237)"
+      "bg" : ")"
+    },
+	{
+      "titre" : "Dealabs",
+      "url" : "https://dealabs.com",
+      "image" : "dealabs",
+      "bg" : ""
+    },
+	{
+      "titre" : "T411",
+      "url" : "http://www.t411.ch/",
+      "image" : "t411",
+      "bg" : ""
     }
   ]
 }
